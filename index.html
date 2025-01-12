@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width"/>
+        <link href="styles/style.css" rel="stylesheet" />
         <title>Home | ajoe2</title>
     </head>
 
@@ -12,7 +13,7 @@
              alt="cs70" 
              width="200"
              height="auto"/><br>
-             This image came from the UC Berkeley <a href="http://www.eecs70.org/">CS70 website</a>.
+        <p>(Notice that it is centered!) This image came from the UC Berkeley <a href="http://www.eecs70.org/">CS70 website</a>.</p>
     
         <h1>My skills</h1>
         <ul>
@@ -20,9 +21,11 @@
             <li> Reading: DNA stands for National Dyslexia Society </li>
             <li> Hard work: Due tomorrow &rArr; do tomorrow </li>
         </ul>
+        <p id="javaoutput"></p>
         <script>
             const message = "[This was generated using JavaScript!]"
-            document.write(message)
+            javaoutput = document.getElementById("javaoutput")
+            javaoutput.innerHTML = message
         </script>
     </body>
 </html> 
