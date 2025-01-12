@@ -3,7 +3,10 @@ html {
 }
 
 body {
-    padding: 0 20px 0 20px;
+    margin: 2.5% 2.5%;
+    background-color: #F0F0F0;
+    padding: 0.25% 2.5% 50% 2.5%;
+    border: 2px solid black;
 }
 
 img {
