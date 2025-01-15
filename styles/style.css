@@ -1,25 +1,24 @@
-html {
-    background-color: #FFFFFF;
-}
-
 body {
-    margin: 2% 2%;
-    background-color: #F0F0F0;
-    padding: 1px 2.5% 500px 2.5%;
-    border: 2px solid black;
+    margin: 0 0;
+    background-color: #FFFFFF;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
-#cs70 {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: "auto";
+main {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    max-width: 60vw;
+    width: 100vw;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
+table {
+    border-collapse: collapse;
 }
 
-p, li {
-    font-family: Arial, Helvetica, sans-serif;
+td, th {
+    border: 1px, solid;   
 }
