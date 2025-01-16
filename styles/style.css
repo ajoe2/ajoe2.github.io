@@ -63,7 +63,7 @@ main {
 }
 
 p {
-    color: #434648;
+    color: #505050;
 }
 
 table {
@@ -89,5 +89,5 @@ td {
     border: solid;   
     border-width: thin;
     border-color: lightgray;
-    color: #434648;
+    color: #505050;
 }
