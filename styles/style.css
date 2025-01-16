@@ -20,5 +20,7 @@ table {
 }
 
 td, th {
-    border: 1px, solid;   
+    border: solid;   
+    border-width: thin;
+    border-color: lightgray
 }
