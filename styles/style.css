@@ -6,7 +6,7 @@ body {
 nav {
     display: block;
     max-width: 100%;
-    width: min(800px, 100%);
+    width: min(820px, 100%);
     height: 3rem;
 
     margin-right: auto;
@@ -54,7 +54,7 @@ nav {
 main {
     padding-top: 1rem;
     padding-bottom: 20px;
-    width: min(720px, 90%);
+    width: min(738px, 90%);
     /* background-color: lightgray; */
     padding-right: 12px;
     padding-left: 12px;
